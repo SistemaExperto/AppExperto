@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarFamiliar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="70dp"
+                    android:text="Modificar Familiar"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    />
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="100dp"
+                    android:background="@drawable/editar"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="70dp"
+                    android:hint="ID"
+                    android:id="@+id/ed_idfamiliar"
+                    android:textSize="20sp"
+                    android:enabled="false"
+                    />
+
+                <EditText
+                    android:id="@+id/ed_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="10dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ áéíóú ÁÉÍÓÚ "
+                    android:hint="Nombre"
+                    android:textSize="20sp"
+                    android:inputType="textPersonName"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:hint="Apellido Paterno"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ áéíóú ÁÉÍÓÚ "
+                    android:id="@+id/ed_apaterno"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:hint="Apellido Materno"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ áéíóú ÁÉÍÓÚ "
+                    android:id="@+id/ed_amaterno"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:hint="Correo"
+                    android:id="@+id/ed_correo"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textEmailAddress"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:hint="Fecha Nacimiento"
+                    android:id="@+id/ed_fecha"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="datetime"
+                    />
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:textSize="20sp"
+                    android:entries="@array/spinner_municipios"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:maxLength="2"
+                    android:hint="Municipio"
+                    android:id="@+id/ed_municipio"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:hint="Telefono"
+                    android:id="@+id/ed_telefono"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="phone"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:text="Actualizar"
+                    android:digits="1234567890"
+                    android:textSize="18sp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/button_rounded"
+                    android:onClick="btn_actulizar_familiar"
+                    />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botton_navigation"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

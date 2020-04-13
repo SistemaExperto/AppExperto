@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name"><b>Sistema Experto</b></string>
+    <string name="sinacceso"><b>Sin Acceso</b></string>
+    <string name="volver">VOLVER</string>
+    <string name="vacio">   </string>
+    <string name="usuario"><b>Usuario:</b></string>
+    <string name="correo"><b>Correo Electrónico:</b></string>
+    <string name="bienvenid"><b>Bienvenido !!!</b></string>
+    <string name="salir"><b>Cerrar Sesión</b></string>
+    <string name="telefono"><b>Teléfono:</b></string>
+    <string name="fecha"><b>Fecha de Nacimiento:</b></string>
+    <string name="estado"><b>Cuenta:</b></string>
+    <string name="registrar"><b>Registrar</b></string>
+    <string name="buscar"><b>Buscar</b></string>
+    <string name="RegistrarV"><b>Registar Vivienda</b></string>
+
+    <string-array name="materialpiso">
+        <item>01-Cemento o firme</item>
+        <item>02-Madera, mosaico, loseta u otro recubrimiento</item>
+        <item>03-Tierra</item>
+    </string-array>
+
+    <string-array name="materialpared">
+        <item>01-Tabique, ladrillo, tabicón, block concreto monolítico, piedra o cemento (incluye cantera)</item>
+        <item>02-Madera o adobe</item>
+        <item>03-Panel de concreto o tabla roca</item>
+        <item>04-Lámina metálica, fibra de vidrio, plástico, mica o asbesto</item>
+        <item>05-Cartón, hule, tela, llantas, lámina de cartón, carrizo, bambú, palma o tejamaní, embarro o bajareque</item>
+        <item>06-Otro</item>
+    </string-array>
+
+    <string-array name="acabadopared">
+        <item>01-Cemento</item>
+        <item>02-Recubrimiento (pasta, yeso) sin pintura</item>
+        <item>03-Panel de concreto o tabla roca</item>
+        <item>04-Ninguno</item>
+        <item>05-Recubrimiento con pintura o tapiz</item>
+        <item>06-Otro</item>
+    </string-array>
+
+    <string-array name="materialtecho">
+        <item>01-Tabique, ladrillo, tabicón, block, concreto monolítico, piedra o cemento (incluye cantera)</item>
+        <item>02-Madera o adobe</item>
+        <item>03-Panel de concreto o tabla roca</item>
+        <item>04-Lámina metálica, fibra de vidrio, plástico, mica o asbesto</item>
+        <item>05-Cartón, hule, tela, llantas, lámina de cartón, carrizo, bambú, palma o tejamaní, embarro o bajareque</item>
+        <item>06-Otro</item>
+    </string-array>
+
+    <string-array name="tiposanitario">
+        <item>01-Excusado o sanitario sin conex</item>
+        <item>02-Excusado o sanitario con conex</item>
+        <item>03-Hoyo negro, pozo ciego o letri</item>
+        <item>04-No tiene servicio sanitario</item>
+    </string-array>
+
+    <string-array name="drenaje">
+        <item>01-Sí</item>
+        <item>02-No</item>
+    </string-array>
+
+    <string-array name="spinner_municipios" >
+        <item>01-Amacuzac</item>
+        <item>02-Atlatlahucan</item>
+        <item>03-Axochiapan</item>
+        <item>04-Ayala</item>
+        <item>05-Coatlán del Río</item>
+        <item>06-Cuautla</item>
+        <item>07-Cuernavaca</item>
+        <item>08-Emiliano Zapata</item>
+        <item>09-Huitzilac</item>
+        <item>10-Jantetelco</item>
+        <item>11-Jiutepec</item>
+        <item>12-Jojutla</item>
+        <item>13-Jonacatepec</item>
+        <item>14-Mazatepec</item>
+        <item>15-Miacatlán</item>
+        <item>16-Ocuituco</item>
+        <item>17-Puente de Ixtla</item>
+        <item>18-Temixco</item>
+        <item>19-Tepalcingo</item>
+        <item>20-Tepoztlán</item>
+        <item>21-Tetecala</item>
+        <item>22-Tetela del Volcán</item>
+        <item>23-Tlalnepantla</item>
+        <item>24-Tlaltizapán de Zapata</item>
+        <item>25-Tlaquiltenango</item>
+        <item>26-Tlayacapan</item>
+        <item>27-Totolapan</item>
+        <item>28-Xochitepec</item>
+        <item>29-Yautepec</item>
+        <item>30-Yecapixtla</item>
+        <item>31-Zacatepec</item>
+        <item>32-Zacualpan de Amilpas</item>
+        <item>33-Temoac</item>
+        <item>34-Coatetelco</item>
+        <item>35-Xoxocotla</item>
+        <item>36-Hueyapan</item>
+
+    </string-array>
+
+</resources>

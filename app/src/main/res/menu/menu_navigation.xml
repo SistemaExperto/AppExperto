@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/viviendas"
+        android:title="Viviendas"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/addviviendas"
+        android:title="Agregar Vivienda"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"/>
+
+    <item
+        android:id="@+id/usuario"
+        android:title="Usuario"
+        android:icon="@drawable/ic_person_black_24dp"/>
+
+    <item
+        android:id="@+id/familiares"
+        android:title="Familiares"
+        android:icon="@drawable/ic_directions_walk_black_24dp"/>
+
+    <item
+        android:id="@+id/addfamiliares"
+        android:title="Agregar Familiar"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"/>
+
+
+
+
+
+</menu>
